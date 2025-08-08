@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Edibility Classifier</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Plant Edibility Classifier</h1>
+    <p class="disclaimer">
+      Safety disclaimer: This tool is for educational purposes only. Do NOT rely on it to make real-world edibility decisions.
+      Always consult qualified experts before consuming any plant.
+    </p>
+
+    <div class="uploader">
+      <input type="file" id="fileInput" accept="image/*" />
+      <button id="predictBtn">Predict</button>
+    </div>
+
+    <div class="preview">
+      <img id="previewImg" alt="Preview" />
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html> 
